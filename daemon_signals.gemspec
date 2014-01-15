@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["sal.scotto@gmail.com"]
   spec.summary       = %q{Extends Process.daemon to raise a Signal when executed}
   spec.description   = %q{There are times when you need to restart threads and jobs if your process is daemonized. This gem provides it.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/washu/daemon_signals"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
